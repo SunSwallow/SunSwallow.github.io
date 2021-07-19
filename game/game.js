@@ -165,7 +165,7 @@
 					auto_confirm:{
 						name:'自动确认',
 						init:false,
-						unfrequent:true,
+						unfrequent:false,
 						intro:'当候选目标只有1个时，点击目标后无需再点击确认',
 					},
 					skip_shan:{
