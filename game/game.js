@@ -32343,7 +32343,7 @@
 			var custom=event.custom||{};
 			var ok=true,auto=true;
 			var player=event.player;
-			var auto_confirm=lib.config.auto_confirm;
+			var auto_confirm=false;
 			var players=game.players.slice(0);
 			if(event.deadTarget) players.addArray(game.dead);
 			if(!event.filterButton&&!event.filterCard&&!event.filterTarget&&(!event.skill||!event._backup)){
