@@ -31,6 +31,7 @@ window.config={
 		image_background_filter:['default','blur','gray','sepia','invert','saturate','contrast','hue','brightness'],
 	},
 
+	ui_zoom:'vbig',
 	game:'sgs',
 	duration:1500,
 	hoveration:1000,
