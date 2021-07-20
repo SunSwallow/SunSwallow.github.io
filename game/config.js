@@ -138,7 +138,7 @@ window.config={
 	plays:[],
 	extensions:[],
 	banned:[],
-	bannedcards:[],
+	bannedcards:['ex','extra','sp','classic','basic'],
 	forbidlist:[],
 	bannedpile:{},
 	customcardpile:{},
