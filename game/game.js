@@ -350,7 +350,7 @@
 					},
 					game_speed:{
 						name:'游戏速度',
-						init:'mid',
+						init:'slow',
 						item:{
 							vslow:'慢',
 							slow:'较慢',
@@ -429,13 +429,13 @@
 					},
 					doubleclick_intro:{
 						name:'双击显示武将资料',
-						init:true,
+						init:true,	
 						unfrequent:true,
 						intro:'双击武将头像后显示其资料卡',
 					},
 					video:{
 						name:'保存录像',
-						init:'20',
+						init:'0',
 						intro:'游戏结束后保存录像在最大条数，超过后将从最早的录像开始删除（已收藏的录像不计入条数）',
 						item:{
 							'0':'关闭',
@@ -450,7 +450,7 @@
 					max_loadtime:{
 						name:'最长载入时间',
 						intro:'设置游戏从启动到完成载入所需的最长时间，超过此时间未完成载入会报错，若设备较慢或安装了较多扩展可适当延长此时间',
-						init:'15000',
+						init:'20000',
 						unfrequent:true,
 						item:{
 							5000:'5秒',
@@ -2051,7 +2051,7 @@
 					},
 					player_border:{
 						name:'边框宽度',
-						init:'normal',
+						init:'wide',
 						intro:'设置角色的边框宽度',
 						unfrequent:true,
 						item:{
@@ -2471,7 +2471,7 @@
 					glow_phase:{
 						name:'当前回合角色高亮',
 						unfrequent:true,
-						init:'yellow',
+						init:'purple',
 						intro:'设置当前回合角色的边框颜色',
 						item:{
 							none:'无',
@@ -2760,7 +2760,7 @@
 					},
 					name_font:{
 						name:'人名字体',
-						init:'xingkai',
+						init:'shousha',
 						unfrequent:true,
 						item:{},
 						textMenu:function(node,link){
@@ -2776,7 +2776,7 @@
 					},
 					identity_font:{
 						name:'身份字体',
-						init:'huangcao',
+						init:'shousha',
 						unfrequent:true,
 						item:{},
 						textMenu:function(node,link){
@@ -2792,7 +2792,7 @@
 					},
 					cardtext_font:{
 						name:'卡牌字体',
-						init:'default',
+						init:'shousha',
 						unfrequent:true,
 						item:{},
 						textMenu:function(node,link){
@@ -2808,7 +2808,7 @@
 					},
 					global_font:{
 						name:'界面字体',
-						init:'default',
+						init:'shousha',
 						unfrequent:true,
 						item:{},
 						textMenu:function(node,link){
@@ -3621,7 +3621,7 @@
 					},
 					volumn_audio:{
 						name:'音效音量',
-						init:8,
+						init:1,
 						item:{
 							'0':'〇',
 							'1':'一',
@@ -3639,7 +3639,7 @@
 					},
 					volumn_background:{
 						name:'音乐音量',
-						init:8,
+						init:1,
 						item:{
 							'0':'〇',
 							'1':'一',

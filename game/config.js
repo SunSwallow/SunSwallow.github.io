@@ -57,7 +57,7 @@ window.config={
 	background_music:'music_default',
 	background_audio:true,
 	background_speak:true,
-	glow_phase:'yellow',
+	glow_phase:'purple',
 	die_move:'flip',
 
 	skin:{},
@@ -118,7 +118,7 @@ window.config={
 	button_press:true,
 	damage_shake:true,
 	log_highlight:true,
-	player_border:'normal',
+	player_border:'wide',
 	radius_size:'default',
 
 	modeconfig:false,
