@@ -1035,7 +1035,7 @@
 					ui_zoom:{
 						name:'界面缩放',
 						unfrequent:true,
-						init:'normal',
+						init:'vbig',
 						item:{
 							esmall:'80%',
 							vsmall:'90%',
